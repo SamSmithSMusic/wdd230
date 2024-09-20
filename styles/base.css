@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main h1 {
+    grid-column: 1/4;
+}
+
+.card {
+    grid-column: 1/4;
+}
+
