@@ -1,3 +1,16 @@
+:root {
+    --night: #161313ff;
+    --eggshell: #f4ebd9ff;
+    --moss-green: #779150ff;
+    --steel-blue: #5580a3ff;
+    --hunter-green: #315f38ff;
+}
+
+body {
+    background-color: var(--eggshell);
+    font-family: 'Titillium Web', 'Times New Roman';
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -5,9 +18,129 @@ main {
 
 main h1 {
     grid-column: 1/4;
+    font-size: 5vw;
+    text-align: center;
+    margin: .5rem;
+    margin-bottom: 0rem;
+    padding: 1vw;
 }
 
 .card {
     grid-column: 1/4;
+    margin: .5rem;
+    text-align: center;
+    border: solid .8vw var(--night);
+    border-radius: 6vw;
+    color: var(--night);
+}
+
+.card h2 {
+    background-color: var(--steel-blue);
+    border-radius: 5vw 5vw 0vw 0vw;
+    color: white;
+    font-size: 5.5vw;
+    margin: 0px;
+    padding: 2vw;
+}
+
+footer {
+    /* border: .8vw solid var(--night); */
+    background-color: var(--hunter-green);
+    color: white;
+    padding: 1vw;
+    margin: .5rem;
+    border-radius: 4vw;
+}
+
+footer p {
+    margin: .2vw;
+    text-align: center;
+}
+
+span {
+    background-color: var(--hunter-green);
+    padding: 4vw 3vw;
+    margin: .5rem;
+    display: inline-flex;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5vw;
+}
+
+span img {
+    max-width: 35%;
+    border-radius: 3vw;
+}
+
+span b {
+    color: var(--eggshell);
+    align-self: center;
+    padding: 2vw;
+    margin: 0px;
+    font-size: 12vw;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--night);
+    margin: 0px .5rem;
+    border-radius: 5vw;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    margin: 0px;
+    padding: 2vw 0vw;
+}
+
+ul li {
+    text-align: center;
+}
+
+#active {
+    background-color: var(--hunter-green);
+    border-radius: 4vw;
+    padding: 2vw;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    margin: 0vw 2vw ;
+    padding: 1vw;
+    font-size: 6vw;
+}
+
+nav li a {
+    color: var(--eggshell);
+}
+
+.card li a{
+    font-size: 5vw;
+    margin: 1vw;
+    padding: 0px;
+    text-decoration: underline;
+    color: var(--night);
+}
+
+.card li {
+    font-size: 5vw;
+    margin: 2vw .5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a:hover {
+    background-color: var(--moss-green);
+    color: var(--night);
+    border-radius: 4vw;
+    padding: 2vw;
 }
 
