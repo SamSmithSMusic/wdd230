@@ -91,7 +91,7 @@ nav {
 ul {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
 
     list-style: none;
@@ -135,6 +135,9 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.card ul {
+    align-items: start;
 }
 
 li a:hover {
