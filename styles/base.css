@@ -91,16 +91,16 @@ nav {
 ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
     list-style: none;
     margin: 0px;
-    padding: 2vw 0vw;
+    padding: 2vw 2vw;
 }
 
 ul li {
-    text-align: center;
+    text-align: left;
 }
 
 #active {
