@@ -11,6 +11,37 @@ body {
     font-family: 'Titillium Web', 'Times New Roman';
 }
 
+.darkBackground {
+    background-color: rgb(43, 43, 43);
+}
+
+.whiteText {
+    color: var(--eggshell);
+}
+.buttonBack {
+    background-color: var(--eggshell);
+}
+
+#darkmode {
+    background-color: rgb(43, 43, 43);
+    position:absolute;
+    top: 4vw;
+    right: 4vw;
+    padding: 0vw;
+    font-size: 6vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    text-align: center;
+}
+#darkmode::before {
+    content: '🌛';
+}
+#darkmode.dark::before{
+ content: '🌻';
+}
+
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
