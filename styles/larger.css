@@ -13,13 +13,18 @@
         margin: 0px;
     }
 
-    nav ul {
+    nav {
+        display: flex;
         flex-direction: row;
     }
 
-    nav ul li a {
+    nav a {
         font-size: 5vw;
         margin: 0px;
         padding: 2vw;
+    }
+
+    .buttonContainer{
+        display: none;
     }
 }

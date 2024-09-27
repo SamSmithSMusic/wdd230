@@ -86,30 +86,64 @@ nav {
     background-color: var(--night);
     margin: 0px .5rem;
     border-radius: 5vw;
+    padding: 2vw;
 }
 
-ul {
+button {
+    padding: 2.5vw 12vw;
+    border: none;
+    border-radius: 3vw;
+}
+
+.buttonContainer {
     display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#menu {
+    background-color: var(--moss-green);
+    color: var(--night);
+    display: flex;
+    align-self: right;
+    font-size: 6vw;
+}
+
+#menu::before {
+    content: "☰";
+}
+#menu.seen::before{
+    content: "X";
+    color: red;
+}
+
+.seen {
+    display: flex;
+}
+
+nav {
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     list-style: none;
-    margin: 0px;
+    margin: 0px .5rem;
     padding: 2vw 2vw;
 }
 
-ul li {
-    text-align: left;
+nav a {
+    text-align: center;
+    width: 95%;
 }
 
 #active {
     background-color: var(--hunter-green);
-    border-radius: 4vw;
-    padding: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
 }
 
-li a {
+a {
     display: block;
     text-decoration: none;
     margin: 0vw 2vw ;
@@ -117,7 +151,7 @@ li a {
     font-size: 6vw;
 }
 
-nav li a {
+nav a {
     color: var(--eggshell);
 }
 
@@ -133,17 +167,20 @@ nav li a {
     font-size: 5vw;
     margin: 2vw .5vw;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 .card ul {
     align-items: start;
+    margin: 0px;
+    padding: 2vw;
+    text-align: left;
 }
 
-li a:hover {
+a:hover {
     background-color: var(--moss-green);
     color: var(--night);
-    border-radius: 4vw;
-    padding: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
 }
 
