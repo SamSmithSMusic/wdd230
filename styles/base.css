@@ -136,7 +136,6 @@ button {
     background-color: var(--moss-green);
     color: var(--night);
     display: flex;
-    align-self: right;
     font-size: 6vw;
 }
 
@@ -148,7 +147,7 @@ button {
     color: red;
 }
 
-.seen {
+nav.seen {
     display: flex;
 }
 
