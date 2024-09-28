@@ -9,16 +9,21 @@ button.addEventListener('click', () => {
 const darkButt = document.querySelector('#darkmode');
 const background = document.querySelector('body');
 const darktext =  document.querySelector('h1');
-const listText = document.querySelector('.card ul');
-const links = document.querySelectorAll('.card a');
+const cards = document.querySelectorAll('.card');
+// const links = document.querySelectorAll('.card a');
 
 darkButt.addEventListener('click', () => {
     background.classList.toggle('darkBackground');
     darktext.classList.toggle('whiteText');
     darkButt.classList.toggle('dark');
-    listText.classList.toggle('whiteText');
-    links.forEach((link) => {
-        link.classList.toggle('whiteText');
+
+    cards.forEach((card) => {
+        card.classList.toggle('whiteText');
     })
+    
+
+    // links.forEach((link) => {
+    //     link.classList.toggle('whiteText');
+    // })
 
 })

@@ -15,7 +15,7 @@ body {
     background-color: rgb(43, 43, 43);
 }
 
-.whiteText {
+.whiteText, .card.whiteText, .card.whiteText a {
     color: var(--eggshell);
 }
 .buttonBack {
@@ -186,7 +186,7 @@ nav a {
     color: var(--eggshell);
 }
 
-.card li a{
+.card a{
     font-size: 5vw;
     margin: 1vw;
     padding: 0px;
