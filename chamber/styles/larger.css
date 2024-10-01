@@ -1,0 +1,32 @@
+@media (min-width: 600px) {
+    #discover img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #discover .desc-container {
+        grid-column: 2;
+        align-content: center;
+    }
+    .desc-container a {
+        font-size: 4vw;
+        padding: 1vw;
+    }
+    #directory img{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #directory .desc-container {
+        grid-column: 1;
+        grid-row: 1;
+        align-content: center;
+    }
+    #Mem1 {
+        grid-column: 2/3;
+    }
+    #Mem2 {
+        grid-column: 4/5;
+    }
+    #Mem3 {
+        grid-column: 6/7;
+    }
+}
