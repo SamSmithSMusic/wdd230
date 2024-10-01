@@ -21,7 +21,7 @@ header {
     background-color: black;
 }
 
-header a {
+header nav a {
     text-decoration: none;
     color: white;
     padding: 1.5vw;
@@ -30,7 +30,7 @@ header a {
     font-size: 6vw;
 }
 
-h1, header > button {
+h1, header > #actionCall {
     position: relative;
     z-index: 2;
 }
@@ -42,10 +42,21 @@ h1{
     align-content: end;
     margin: 3vw 0vw;
 }
-header >button {
+header > #actionCall {
     grid-column: 3/4;
     grid-row: 3;
     height: 6vw;
+    font-size: 3vw;
+    background: none;
+    border: .35vw solid var(--offWhite);
+    color: var(--offWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#actionCall:hover {
+    color: var(--darkGrey);
+    background-color: var(--offWhite);
 }
 header img {
     grid-row: 2/4;

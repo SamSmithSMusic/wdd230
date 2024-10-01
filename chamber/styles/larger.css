@@ -7,7 +7,11 @@
         grid-column: 2;
         align-content: center;
     }
+    .desc-container {
+        height: 25vw;
+    }
     .desc-container a {
+        margin: 0px 10vw;
         font-size: 4vw;
         padding: 1vw;
     }
@@ -20,6 +24,12 @@
         grid-row: 1;
         align-content: center;
     }
+    section h2{
+        font-size: 9vw;
+    }
+    section p{
+        font-size: 2.5vw;
+    }
     #Mem1 {
         grid-column: 2/3;
     }
@@ -28,5 +38,11 @@
     }
     #Mem3 {
         grid-column: 6/7;
+    }
+    article {
+        margin: 1vw;
+    }
+    article h3 {
+        font-size: 5vw;
     }
 }
