@@ -37,7 +37,7 @@ h1, header > #actionCall {
 h1{
     grid-column: 1/6;
     grid-row: 2;
-    font-size: 12vw;
+    font-size: 10vw;
     text-align: center;
     align-content: end;
     margin: 3vw 0vw;
