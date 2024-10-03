@@ -11,6 +11,28 @@ body {
     font-family: 'Titillium Web', 'Times New Roman';
 }
 
+.hero {
+    grid-column: 1/4;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    max-width: 100%;
+    height: auto;
+}
+.hero span {
+    background-color: rgba(0, 0, 0,.4);
+    border-radius: 0;
+    position: absolute;
+    margin-top: 25vw;
+    padding: 1vw;
+    width: 100%;
+    color: white;
+    font-size: 8vw;
+}
+
 .darkBackground {
     background-color: rgb(43, 43, 43);
 }
@@ -187,9 +209,10 @@ nav a {
 
 .card a{
     font-size: 5vw;
-    margin: 1vw;
-    padding: 0px;
+    margin: 0vw;
+    padding: 1vw;
     text-decoration: underline;
+    text-align: center;
     color: var(--night);
 }
 

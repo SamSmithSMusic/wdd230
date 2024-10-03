@@ -25,20 +25,11 @@
   <body>
     <header>
       <span>
-        <img src="images/profile-pic.jpg" alt="Profile Picture">
+        <img src="images/profile-pic.webp" alt="Profile Picture">
         <b>Samuel Smith</b>
       </span>
     </header>
     
-    <!-- <nav>
-      <ul>
-        <button id="#menu">≡</button>
-        <li class="seen" class="list"><a id="active" href="index.html">Home</a></li>
-        <li class="seen" class="list"><a href="">Chamber</a></li>
-        <li class="seen" class="list"><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-        <li class="seen" class="list"><a href="">Forum</a></li>
-      </ul>
-    </nav> -->
     <button id="darkmode" aria-label="dark mode toggle" ></button>
     <div class="buttonContainer">
       <button id="menu" aria-label="navigation menu dropdown"></button>
@@ -49,7 +40,15 @@
       <a href="week01/chamber-site-plan.html">Site Plan</a>
       <a href="">Forum</a>
     </nav>
+
     <main>
+      <div class="hero">
+        <span>Nauvoo Temple</span>
+        <picture>
+          <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+          <img src="images/hero-large.webp" alt="Nauvoo Temple" width="960" height="576">
+        </picture>
+      </div>
       <h1>WDD 230: Web Frontend Development</h1>
       <section class="card" id="learning">
         <h2>Learning Activities</h2>
