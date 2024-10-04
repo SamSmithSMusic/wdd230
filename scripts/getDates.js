@@ -16,3 +16,11 @@ modified.innerHTML = `Last Modified : ${moddedDate}`;
 
 parent.appendChild(nameObj);
 parent.appendChild(modified);
+
+const counter = document.querySelector('#counter');
+
+let count = localStorage.getItem('pageCount') || 0;
+count ++;
+localStorage.setItem('pageCount', count);
+
+counter.innerHTML = `Page Visit Number : ${count}`;
