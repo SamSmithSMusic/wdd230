@@ -28,9 +28,13 @@ body {
     position: absolute;
     margin-top: 25vw;
     padding: 1vw;
-    width: 100%;
+    width: 98%;
     color: white;
     font-size: 8vw;
+}
+iframe {
+    grid-column: 1/4;
+    margin: 2vw 2vw;
 }
 
 .darkBackground {
