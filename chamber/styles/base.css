@@ -25,7 +25,7 @@ header nav a {
     text-decoration: none;
     color: white;
     padding: 1.5vw;
-    border: 2px solid var(--darkGrey);
+    border: 4px solid var(--darkBlue);
     margin: 1vw 1vw;
     font-size: 6vw;
 }
@@ -69,12 +69,16 @@ header img {
 
 nav {
     display: none;
-    background-color: var(--darkBlue);
+    background-color: var(--darkGrey);
     flex-direction: column;
     text-align: center;
     grid-row: 1;
     grid-column: 1/6;
 }
+nav :hover {
+    background-color: var(--darkBlue);
+}
+
 nav.expanded{
     display:flex;
 }
@@ -141,6 +145,7 @@ section h2 {
 section p {
     text-align: center;
     padding: 4vw;
+    font-size: 4vw
 }
 
 #spotlight {

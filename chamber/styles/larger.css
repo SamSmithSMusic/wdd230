@@ -1,4 +1,14 @@
 @media (min-width: 900px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #menu {
+        display: none;
+    }
+    
+    
     #discover img{
         grid-column: 1;
         grid-row: 1;
@@ -41,9 +51,20 @@
     }
     article {
         margin: 1vw;
+        transition: transform .3s ease;
+    }
+    article:hover {
+        transform: scale(1.05);
     }
     article h3 {
         font-size: 5vw;
+    }
+
+    #actionCall {
+        transition: transform .2s ease;
+    }
+    #actionCall:hover {
+        transform: scale(1.05);
     }
 
     main#discover #cards {

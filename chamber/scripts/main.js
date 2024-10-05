@@ -38,7 +38,10 @@ else {
 
 }
 
-counter.innerHTML = message
+if (counter) {
+    counter.innerHTML = message
+}
+
 localStorage.setItem('lastVisit', currentDate);
 
 function dateDiff(date1, date2) {
