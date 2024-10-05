@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     #discover img{
         grid-column: 1;
         grid-row: 1;
@@ -45,4 +45,50 @@
     article h3 {
         font-size: 5vw;
     }
+
+    main#discover #cards {
+        grid-column: 1;
+        grid-row: auto;
+        font-size: 6vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    #cards section {
+        margin: 2vw 2vw;
+        padding: 3vw;
+        transition: transform .3s ease;
+    }
+
+    main#discover h2 {
+        font-size: 5vw;
+        padding: 1vw;
+    }
+
+    main#discover p {
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    main#discover #pictures {
+        grid-column: 2;
+        grid-row: 1;
+        width: 95%;
+        margin: 0px;
+    }
+
+    #pictures img {
+        padding: 3vw;
+        box-sizing: border-box;
+        transition: transform .3s ease;
+    }
+
+    main#discover {
+        align-items: start;
+    }
+
+    main#discover section:hover, #pictures img:hover{
+        transform: scale(1.05);
+    }
+
 }
