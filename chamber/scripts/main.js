@@ -19,21 +19,25 @@ const currentDate = new Date();
 
 let daysSince = dateDiff(currentDate, storedDate);
 let message = '';
-if (daysSince == 0) {
-    message = 'Welcome! Let us know if you have any questions.';
-}
-else if (daysSince <1) {
-    message = 'Back so soon? Awesome!'
-}
-else {
-    if (daysSince == 1) {
-        message = `You last visited 1 day ago.`
+if (storedText != 0 ) {
+    if (daysSince <1) {
+        message = 'Back so soon? Awesome!'
     }
     else {
-        message = `You last visited ${daysSince} days ago.`
+        if (daysSince == 1) {
+            message = `You last visited 1 day ago.`
+        }
+        else {
+            message = `You last visited ${daysSince} days ago.`
+        }
+        
     }
-    
 }
+else {
+    message = 'Welcome! Let us know if you have any questions.';
+
+}
+
 counter.innerHTML = message
 localStorage.setItem('lastVisit', currentDate);
 
