@@ -1,0 +1,35 @@
+:root {
+    --offwhite: rgb(254, 243, 247);
+    --darkPink: rgb(73, 0, 70);
+    --darkBlue: rgb(0, 0, 77);
+    --lightPink: rgb(255, 196, 243);
+    --lightBlue: rgb(172, 206, 255);
+}
+table {
+    margin: 10px auto;
+    border: .05vw solid var(--darkBlue);
+    box-shadow: 0 0 10px;
+}
+caption {
+    color: var(--darkBlue);
+    padding: 1vw;
+    caption-side: bottom;
+}
+thead {
+    color: var(--offwhite);
+    background-color: var(--darkPink);
+}
+thead tr:first-child {
+    background-color: var(--darkBlue);
+}
+td {
+    width: 6vw;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: var(--lightPink);
+}
+tbody tr:nth-child(even) {
+    background-color: var(--lightBlue);
+}
