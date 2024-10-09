@@ -49,6 +49,71 @@ main {
     min-height: 20rem;
 }
 
+/* ----------Form Styling ----------- */
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: rgb(156, 0, 0);
+    font-size: .9rem;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+}
+
+.wf1 input:is([type="text"],[type="tel"],[type="email"],[type="url"],[type="date"],[type="number"]), .wf1 select {
+    background-color: rgb(224, 224, 224);
+    display: block;
+    border: solid 1px #929292;
+    border-radius: 6px;
+    padding: .75rem;
+    color: rgb(36, 36, 36);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input:is([type="radio"],[type="checkbox"]) {
+    margin-right: 6px;
+}
+
+.wf1 input[type="submit"] {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+    padding: 2vw;
+    margin: -1vw 2% 1vw 2%;
+    background-color: #445ba9;
+    font-size: 2vw;
+    color: white;
+}
+
+.wf1 input:required {
+    border-right: solid red 1vw ;
+}
+
+.wf1 input:required:valid {
+    border-right: solid rgb(0, 146, 61) 1vw ;
+}
+
+.wf1 select:hover {
+    background-color: #ececec;
+}
+
 
 /*----------- FOOTER --------------*/
 footer {
