@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Smith - WDD 230 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="Samuel Smith's course assignment portal for WDD 230 - Web Frontend Development">
+    <meta name="author" content="Samuel Smith">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+
+    <meta property="og:title" content="Samuel Smith's wdd230 Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://samsmithsmusic.github.io/wdd230/images/NB.jpg">
+    <meta property="og:url" content="https://samsmithsmusic.github.io/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <header>
+      <span>
+        <img src="images/profile-pic.webp" alt="Profile Picture">
+        <b>Samuel Smith</b>
+      </span>
+    </header>
+    
+    <button id="darkmode" aria-label="dark mode toggle" ></button>
+    <div class="buttonContainer">
+      <button id="menu" aria-label="navigation menu dropdown"></button>
+    </div>
+    <nav class="list">
+      <a href="index.html">Home</a>
+      <a href="chamber/index.html">Chamber</a>
+      <a href="week01/chamber-site-plan.html">Site Plan</a>
+      <a id="active" href="form.html">Forum</a>
+    </nav>
+
+    <main>
+      <form method="get" action="record.html">
+        <fieldset>
+            <legend>Account Information</legend>
+            <label>Username<input type="text" name="user" id="user" required></label>
+            <label>Password<input type="password" name="pass1" id="pass1" pattern="[A-Za-z0-9]{8,}" required></label>
+            <label>Password Confirmation<input type="password" name="pass2" id="pass2" required></label>
+                <title id="passworderror">Paswords do not match</title>
+            <label>BYU-Idaho Email<input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"></label>
+            <title id="emailerror">Please enter a valid email address</title>
+        </fieldset>
+        <label>Page Rating<input type="range" id="rating" name="rating" value="5" min="0" max="10" step="1" list="rangevalues"></label>
+        <title id="ratingshow"></title>
+        <datalist id="rangevalues">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+        <label><input type="submit" value="Rate this Page"></label>
+      </form>
+    </main>
+
+    <footer></footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/buttonResponse.js"></script>
+  </body>
+</html>
