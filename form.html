@@ -49,12 +49,11 @@
             <label>Username<input type="text" name="user" id="user" required></label>
             <label>Password<input type="password" name="pass1" id="pass1" pattern="[A-Za-z0-9]{8,}" required></label>
             <label>Password Confirmation<input type="password" name="pass2" id="pass2" required></label>
-                <title id="passworderror">Paswords do not match</title>
+                <title id="passworderror" class="hidden">Paswords do not match</title>
             <label>BYU-Idaho Email<input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"></label>
-            <title id="emailerror">Please enter a valid email address</title>
+            <title id="emailerror" class="hidden">Please enter a valid email address</title>
         </fieldset>
-        <label>Page Rating<input type="range" id="rating" name="rating" value="5" min="0" max="10" step="1" list="rangevalues"></label>
-        <title id="ratingshow"></title>
+        <label>Page Rating<input type="range" id="rating" name="rating" value="5" min="0" max="10" step="1" list="rangevalues"><p id="rangevalue"></p></label>
         <datalist id="rangevalues">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -74,5 +73,6 @@
     <footer></footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/buttonResponse.js"></script>
+    <script src="scripts/formstuff.js"></script>
   </body>
 </html>

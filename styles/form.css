@@ -1,0 +1,22 @@
+form,label,title,input {
+    display: block;
+    min-height: 44px;
+    font-size: 5vw;
+    padding-left: 1vw;
+}
+
+label {
+    margin-top: 10px;
+}
+
+fieldset {
+    font-size: 6vw;
+}
+
+input[type=range] {
+    width: 75%;
+}
+
+.hidden {
+    display: none;
+}
