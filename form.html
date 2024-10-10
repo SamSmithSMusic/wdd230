@@ -53,8 +53,9 @@
             <label>BYU-Idaho Email<input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"></label>
             <title id="emailerror" class="hidden">Please enter a valid email address</title>
         </fieldset>
-        <label>Page Rating<input type="range" id="rating" name="rating" value="5" min="0" max="10" step="1" list="rangevalues"><p id="rangevalue"></p></label>
+        <label><title id="rangevalue">Page Rating -</title><input type="range" id="rating" name="rating" value="5" min="0" max="10" step="1" list="rangevalues">
         <datalist id="rangevalues">
+            <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -66,6 +67,7 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </datalist>
+      </label>
         <label><input type="submit" value="Rate this Page"></label>
       </form>
     </main>

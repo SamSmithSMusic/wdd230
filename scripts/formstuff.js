@@ -5,7 +5,7 @@ range.addEventListener('change', displayRating);
 range.addEventListener('input', displayRating);
 
 function displayRating() {
-    rangevalue.innerHTML = range.value;
+    rangevalue.innerHTML = `Page Rating - ${range.value}`;
 }
 
 

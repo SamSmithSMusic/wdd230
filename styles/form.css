@@ -14,10 +14,40 @@ fieldset {
 }
 
 input[type=range] {
-    width: 75%;
+    width: 96%;
+    margin: -5vw 2% 1vw 2%;
 }
 
 .hidden {
     display: none;
     color: red;
+}
+
+datalist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input[type=submit] {
+    background-color: #779150ff;
+    border: none;
+    padding: 1vw 3vw;
+}
+
+@media screen and (min-width: 600px) {
+    input[type=range] {
+        width: 96%;
+        margin: 1vw 2% 1vw 2%;
+    }
+    fieldset{
+        font-size: 2vw;
+    }
+    form,label,title,input, input[type=range] {
+        font-size: 2vw;
+    }
+    form {
+        width: 50%;
+    }
+
 }
