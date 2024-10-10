@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Samuel Smith">
+    <meta name="description" content="Chamber of Commerce wdwd 230 project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="New Braunfels Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://samsmithsmusic.github.io/wdd230/chamber/images/NB.jpg">
+    <meta property="og:url" content="https://samsmithsmusic.github.io/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>NB Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body> 
+    <header>
+        <button id="menu" aria-label="navigaation dropdowwn"></button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discovery</a>
+            <a href="">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+        <img id="hero" alt="NB hero Image" src="images/hero-img.webp">
+        <h1>New Braunfels Chamber of Commerce</h1>
+        <a id="actionCall">Join Our Community</a>
+    </header>
+    <main class="jp">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name<input type="text" name="fname" id="fname" required></label>
+                <label>Last Name<input type="text" name="lname" id="lname" required></label>
+                <label>Title/Position<input type="text" name="title" id="title" pattern="[A-Za-z\s\-]{7,}"></label>
+                <label>Email<input type="email" name="email" id="email" required placeholder="Sample@gmail.com"></label>
+                <label>Phone<input type="tel" name="phone" id="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business/Organization Information</legend>
+                <label>Name<input type="text" name="business" id="business" required></label>
+                <label>Description<input type="textarea" name="desc" id="desc"></label>
+                    <div class="radio" id="membership">Membership Level
+                    <label><input type="radio" id="nonP" name="membership">Non Profit</label>
+                    <label><input type="radio" id="bronze" name="membership">Bronze</label>
+                    <label><input type="radio" id="silver" name="membership">Silver</label>
+                    <label><input type="radio" id="gold" name="membership">Gold</label>
+                </div>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+                <label><input type="submit" value="Register My Business"></label>
+            </fieldset>
+        </form>
+        <aside class="benifets">
+            <section class="card" id="goldCard">
+                <h2>Gold</h2>
+                <h3>$5,000/yr</h3>
+                <h3></h3>
+                <ul>
+                    <li>Advertising spotlight on the Chamber website with business logo and description</li>
+                    <li>Business featured as “Gold Member” on Chamber homepage with rotating ad placement</li>
+                    <li>Quarterly business spotlights in the Chamber newsletter</li>
+                    <li>Invitation to exclusive VIP networking events with local leaders</li>
+                    <li>First priority for Chamber event sponsorships with increased exposure</li>
+                    <li>15% discount on event space rentals at Chamber events</li>
+                    <li>Four complimentary tickets to annual Chamber banquet</li>
+                    <li>Feature on Chamber’s social media once per quarter</li>
+                    <li>Complimentary booth space at Chamber-hosted expos or trade shows</li>
+                  </ul>
+            </section>
+            <section class="card" id="silverCard">
+                <h2>Silver</h2>
+                <h3>$1,500</h3>
+                <ul>
+                    <li>All Bronze Benefits</li>
+                    <li>Expanded listing in Chamber business directory with business description and logo</li>
+                    <li>Access to premium workshops and exclusive training sessions</li>
+                    <li>Special discounted rates on advertising in Chamber newsletter</li>
+                    <li>Priority seating at Chamber events</li>
+                    <li>Business featured in Chamber social media shout-outs once a year</li>
+                    <li>10% discount on event space rentals at Chamber events</li>
+                    <li>Two complimentary tickets to annual Chamber banquet</li>
+                    <li>Eligible to sponsor Chamber events with branding opportunities</li>
+                  </ul>
+            </section>
+            <section class="card" id="bronzeCard">
+                <h2>Bronze</h2>
+                <h3>$500/yr</h3>
+                <ul>
+                    <li>All Non-Profit Benifets</li>
+                    <li>Access to Chamber-hosted business luncheons</li>
+                    <li>Inclusion in Chamber business directory with link to website</li>
+                    <li>Opportunity to present a 30-second pitch at select events</li>
+                    <li>Eligibility for Member of the Month recognition</li>
+                    <li>5% discount on event space rentals at Chamber events</li>
+                    <li>Complimentary listing in Chamber newsletter (business name only)</li>
+                  </ul>
+            </section>
+            <section class="card" id="nonpCard">
+                <h2>Non-Profit</h2>
+                <h3>Free</h3>
+                <ul>
+                    <li>Access to all Chamber networking events</li>
+                    <li>Discounted rates for Chamber-sponsored workshops and training</li>
+                    <li>Inclusion in Chamber business directory (name only)</li>
+                    <li>Invitations to community outreach programs</li>
+                    <li>Basic support for nonprofit development</li>
+                  </ul>
+            </section>
+        </aside>
+    </main>
+    <footer></footer>
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>

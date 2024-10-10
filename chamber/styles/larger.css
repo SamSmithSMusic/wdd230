@@ -112,4 +112,70 @@
         transform: scale(1.05);
     }
 
+    /* ----- Join Rules ----- */
+    aside {
+        grid-column: 2;
+    }
+
+    .jp form {
+        grid-column: 1;
+    }
+
+    .jp input:not([type="radio"]) {
+        min-height: 44px;
+        height: 4vw;
+        width: 65%;
+        font-size: 6vw;
+    }
+
+    .jp input[type=submit] {
+        background-color: rgb(194, 0, 0);
+        border: none;
+        border-radius: 1.5vw;
+        margin: 1.5vw 2% 0px 2%;
+        width: 61%;
+        font-size: 2vw;
+        height: 5vw;
+    }
+
+    .jp input {
+        padding: 0px 1vw;
+    }
+
+    fieldset {
+        font-size: 3vw;
+    }
+
+    .jp input:not([type="radio"]) {
+        font-size: 2vw;
+    }
+
+    .jp label, .jp div{
+        font-size: 2vw;
+    }
+
+    .card h2 {
+        font-size: 6vw;
+    }
+
+    .card h3 {
+        font-size: 3vw;
+    }
+
+    .card li {
+        font-size: 2vw;
+    }
+
+    .jp input[type="radio"] {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .jp input:required{
+        border-right: 1vw solid rgb(194, 0, 0);
+    }
+    .jp input:required:valid{
+        border-right: 1vw solid rgb(0, 151, 33);
+    }
+
 }

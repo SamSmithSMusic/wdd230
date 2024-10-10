@@ -49,3 +49,7 @@ function dateDiff(date1, date2) {
     const daysBetween = Math.floor(timeBetween / 86400000);
     return daysBetween
 }
+
+
+const timeStamp = document.querySelector('#timestamp');
+timeStamp.value = date;
