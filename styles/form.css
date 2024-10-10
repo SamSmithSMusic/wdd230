@@ -19,4 +19,5 @@ input[type=range] {
 
 .hidden {
     display: none;
+    color: red;
 }
