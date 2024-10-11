@@ -3,6 +3,8 @@ form,label,title,input {
     min-height: 44px;
     font-size: 5vw;
     padding-left: 1vw;
+    padding-right: 1vw;
+    box-sizing: border-box;
 }
 
 label {
@@ -20,7 +22,6 @@ input[type=range] {
 
 .hidden {
     display: none;
-    color: red;
 }
 
 datalist {
@@ -35,6 +36,18 @@ input[type=submit] {
     padding: 1vw 3vw;
 }
 
+
+input {
+    border: 1px solid grey;
+}
+input:invalid
+{
+    border-right: red solid 1vw;
+}
+input:valid:not([type=submit]) {
+    border-right: green solid 1vw;
+}
+
 @media screen and (min-width: 600px) {
     input[type=range] {
         width: 96%;
@@ -47,7 +60,7 @@ input[type=submit] {
         font-size: 2vw;
     }
     form {
-        width: 50%;
+        width: 100%;
     }
 
 }
