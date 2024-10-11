@@ -29,7 +29,7 @@
         </nav>
         <img id="hero" alt="NB hero Image" src="images/hero-img.webp">
         <h1>New Braunfels Chamber of Commerce</h1>
-        <a id="actionCall">Join Our Community</a>
+        <a href="join.html" id="actionCall">Join Our Community</a>
     </header>
     <main class="jp">
         <form method="get" action="thankyou.html">
@@ -44,7 +44,7 @@
             <fieldset>
                 <legend>Business/Organization Information</legend>
                 <label>Name<input type="text" name="business" id="business" required></label>
-                <label>Description<input type="textarea" name="desc" id="desc"></label>
+                <label>Description<textarea name="desc" id="desc"></textarea></label>
                     <div class="radio" id="membership">Membership Level
                     <label><input type="radio" id="nonP" name="membership">Non Profit</label>
                     <label><input type="radio" id="bronze" name="membership">Bronze</label>
@@ -56,11 +56,11 @@
             </fieldset>
         </form>
         <aside class="benifets">
+            <h2>Tier Benefits</h2>
             <section class="card" id="goldCard">
-                <h2>Gold</h2>
+                <h2 class="dropdown">Gold</h2>
                 <h3>$5,000/yr</h3>
-                <h3></h3>
-                <ul>
+                <ul >
                     <li>Advertising spotlight on the Chamber website with business logo and description</li>
                     <li>Business featured as “Gold Member” on Chamber homepage with rotating ad placement</li>
                     <li>Quarterly business spotlights in the Chamber newsletter</li>
@@ -73,9 +73,9 @@
                   </ul>
             </section>
             <section class="card" id="silverCard">
-                <h2>Silver</h2>
+                <h2 class="dropdown">Silver</h2>
                 <h3>$1,500</h3>
-                <ul>
+                <ul >
                     <li>All Bronze Benefits</li>
                     <li>Expanded listing in Chamber business directory with business description and logo</li>
                     <li>Access to premium workshops and exclusive training sessions</li>
@@ -88,9 +88,9 @@
                   </ul>
             </section>
             <section class="card" id="bronzeCard">
-                <h2>Bronze</h2>
+                <h2 class="dropdown">Bronze</h2>
                 <h3>$500/yr</h3>
-                <ul>
+                <ul >
                     <li>All Non-Profit Benifets</li>
                     <li>Access to Chamber-hosted business luncheons</li>
                     <li>Inclusion in Chamber business directory with link to website</li>
@@ -101,9 +101,9 @@
                   </ul>
             </section>
             <section class="card" id="nonpCard">
-                <h2>Non-Profit</h2>
+                <h2 class="dropdown">Non-Profit</h2>
                 <h3>Free</h3>
-                <ul>
+                <ul >
                     <li>Access to all Chamber networking events</li>
                     <li>Discounted rates for Chamber-sponsored workshops and training</li>
                     <li>Inclusion in Chamber business directory (name only)</li>

@@ -53,3 +53,36 @@ function dateDiff(date1, date2) {
 
 const timeStamp = document.querySelector('#timestamp');
 timeStamp.value = date;
+
+
+const dropper1 = document.querySelector('#goldCard .dropdown');
+const benefits1 = document.querySelector('#goldCard ul');
+
+dropper1.addEventListener('click',() => {
+    dropper1.classList.toggle("dropped");
+    benefits1.classList.toggle("dropped");
+})
+
+const dropper2 = document.querySelector('#silverCard .dropdown');
+const benefits2 = document.querySelector('#silverCard ul');
+
+dropper2.addEventListener('click',() => {
+    dropper2.classList.toggle("dropped");
+    benefits2.classList.toggle("dropped");
+})
+
+const dropper3 = document.querySelector('#bronzeCard .dropdown');
+const benefits3 = document.querySelector('#bronzeCard ul');
+
+dropper3.addEventListener('click',() => {
+    dropper3.classList.toggle("dropped");
+    benefits3.classList.toggle("dropped");
+})
+
+const dropper4 = document.querySelector('#nonpCard .dropdown');
+const benefits4 = document.querySelector('#nonpCard ul');
+
+dropper4.addEventListener('click',() => {
+    dropper4.classList.toggle("dropped");
+    benefits4.classList.toggle("dropped");
+})

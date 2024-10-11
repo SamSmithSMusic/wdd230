@@ -245,6 +245,12 @@ fieldset label:first-of-type {
     margin-top: 0px;
 }
 
+.jp textarea {
+    width: 65%;
+    height: 50px;
+    font-size: 5vw;
+}
+
 .jp input:not([type="radio"]) {
     height: 44px;
     width: 65%;
@@ -256,7 +262,7 @@ fieldset label:first-of-type {
     height: 15vw;
 }
 
-.jp :is([type="text"],[type="email"],[type="tel"],[type="textarea"],[type="submit"],label) {
+.jp :is([type="text"],[type="email"],[type="tel"],textarea,[type="submit"],label) {
     display: block;
 }
 
@@ -316,6 +322,11 @@ aside{
     padding: 2vw;
 }
 
+aside h2 {
+    font-size: 14vw;
+    margin-bottom:.5vw;
+}
+
 .card {
     background-color: white;
     border-radius: 10px;
@@ -351,6 +362,13 @@ aside{
     font-size: 6vw;
 }
 
+.card ul {
+    display: none;
+}
+.card ul.dropped {
+    display: block;
+}
+
 #goldCard {
     background-color: gold;
 }
@@ -370,4 +388,13 @@ form {
 
 aside {
     grid-column: 1/3;
+}
+
+/* <----- Perks Dropdowns -----> */
+.dropdown::after {
+    content: " >";
+}
+
+.dropdown.dropped:after {
+    content: " ^";
 }

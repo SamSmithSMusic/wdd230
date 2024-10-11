@@ -150,12 +150,19 @@
         font-size: 2vw;
     }
 
+    .jp textarea {
+        font-size: 2vw;
+    }
+
     .jp label, .jp div{
         font-size: 2vw;
     }
 
     .card h2 {
-        font-size: 6vw;
+        font-size: 5vw;
+    }
+    .card h2:hover {
+        cursor: pointer;
     }
 
     .card h3 {
@@ -164,6 +171,13 @@
 
     .card li {
         font-size: 2vw;
+    }
+
+    .card {
+        transition: transform .3s ease;
+    }
+    .card:hover {
+        transform: scale(1.03);
     }
 
     .jp input[type="radio"] {
@@ -178,4 +192,8 @@
         border-right: 1vw solid rgb(0, 151, 33);
     }
 
+    aside h2 {
+        font-size: 6vw;
+        margin-top: 2vw;
+    }
 }
