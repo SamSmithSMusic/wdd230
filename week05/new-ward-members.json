@@ -1,0 +1,60 @@
+{
+    "new_families": [
+        {
+            "family_name": "Smith",
+            "date_moved_in": "2023-06-15",
+            "number_of_people": 5,
+            "visited_by_bishopric": true,
+            "individual_family_members": [
+                {
+                    "name": "John Smith",
+                    "gender": "Male",
+                    "birthdate": "1980-05-14"
+                },
+                {
+                    "name": "Jane Smith",
+                    "gender": "Female",
+                    "birthdate": "1982-09-22"
+                },
+                {
+                    "name": "Emily Smith",
+                    "gender": "Female",
+                    "birthdate": "2008-03-17"
+                },
+                {
+                    "name": "Michael Smith",
+                    "gender": "Male",
+                    "birthdate": "2010-07-02"
+                },
+                {
+                    "name": "Sarah Smith",
+                    "gender": "Female",
+                    "birthdate": "2013-12-11"
+                }
+            ]
+        },
+        {
+            "family_name": "Johnson",
+            "date_moved_in": "2022-04-10",
+            "number_of_people": 3,
+            "visited_by_bishopric": false,
+            "individual_family_members": [
+                {
+                    "name": "Robert Johnson",
+                    "gender": "Male",
+                    "birthdate": "1975-11-03"
+                },
+                {
+                    "name": "Laura Johnson",
+                    "gender": "Female",
+                    "birthdate": "1978-08-15"
+                },
+                {
+                    "name": "David Johnson",
+                    "gender": "Male",
+                    "birthdate": "2012-01-21"
+                }
+            ]
+        }
+    ]
+}
