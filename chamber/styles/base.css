@@ -398,3 +398,42 @@ aside {
 .dropdown.dropped:after {
     content: " ^";
 }
+
+
+
+
+/* <----- directory styles -----> */
+.dir {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+}
+.dir section {
+    background-color: var(--lightBlue);
+    margin: 2vw 2vw;
+    color: black;
+    padding: 3vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dir img {
+    max-width: calc(360px - 6vw);
+}
+
+.dir h2 {
+    font-size: 300%;
+}
+.dir h3 {
+    font-size:150%;
+    padding: 3vw 6vw;
+    margin: 0px;
+}
+
+.dir a{
+    background-color: var(--darkGrey);
+    color: var(--offWhite);
+    padding: 3vw;
+    border-radius: 1vw;
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Comal River Kayak Rentals",
+        "cocID": "0",
+        "address": "123 River St, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-1234",
+        "website": "https://www.texastubes.com/",
+        "logo_link": "https://cdn.website-editor.net/s/6b543e8f910a4c01877d48821325508d/dms3rep/multi/Texas-Tubes-Logo-404-865.gif?Expires=1731724075&Signature=FPy01OlaLRwBvoHBRaUv41sz-FrmY619MzdntQGkikAP0jEwx41wolJXStKqPf-0jDjaz2KnpYfM3czSows2YlNZiw~ApWbqcSGOySpEdwV0apYXYKJ6oo-h0VjFbd~Cywx0TN4f3R5-6lUfLJzjB6j7LBDGK0Gue9RiC2pdlzcAl8gvzgxpVc727TCqP0P2hjDdYDPv13~GlZvj1fb8RSbkTLlgfGU2V~-gFtlQ50Bpa1nKFEGkLfjB7z1u~a7nIs3647ZSmQsIypvn35Ye4R4LiUL8l95BTOvCbILH9lneZ77oLff2X3E28M3j5DnkVL6M9RdK0m-EITw8Tu3HGw__&Key-Pair-Id=K2NXBXLF010TJW",
+        "membership_level": "Bronze"
+    },
+    {
+        "name": "Rockin' R",
+        "cocID": "1",
+        "address": "456 Waterway Rd, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-5678",
+        "website": "https://rockinr.com/",
+        "logo_link": "https://rockinr.com/wp-content/uploads/2024/04/logo_white.png",
+        "membership_level": "Silver"
+    },
+    {
+        "name": "Landa Park Golf Course",
+        "cocID": "2",
+        "address": "789 Green Blvd, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-8765",
+        "website": "https://www.landaparkgolfcourse.com/",
+        "logo_link": "https://www.landaparkgolfcourse.com/wp-content/uploads/sites/7816/2018/12/Landa-Park-Logo-small.png",
+        "membership_level": "Gold"
+    },
+    {
+        "name": "Naegelin's Bakery",
+        "cocID": "3",
+        "address": "111 Chamber Dr, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-4321",
+        "website": "https://www.naegelins.com/",
+        "logo_link": "https://images.getbento.com/4lXQ2TIFSFaHR14UGIUW_nb-logo.png",
+        "membership_level": "Non Profit"
+    },
+    {
+        "name": "Gruene Hall",
+        "cocID": "4",
+        "address": "1281 Gruene Rd, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-2222",
+        "website": "http://gruenehall.com",
+        "logo_link": "https://gruenehall.com/wp-content/uploads/2021/10/GH_logo_REG_2-1.png",
+        "membership_level": "Gold"
+    },
+    {
+        "name": "Schlitterbahn",
+        "cocID": "5",
+        "address": "305 E Austin St, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-3333",
+        "website": "http://schlitterbahn.com",
+        "logo_link": "https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/schlitterbahn-en-us/sb-parent-logov4.jpg",
+        "membership_level": "Gold"
+    },
+    {
+        "name": "Wurstfest Association",
+        "cocID": "6",
+        "address": "120 Landa St, New Braunfels, TX 78130",
+        "phone_number": "(830) 555-4444",
+        "website": "http://wurstfest.com",
+        "logo_link": "https://wurstfest.com/wp-content/uploads/2024/03/Wurstfest_Logo_Sig.png",
+        "membership_level": "Silver"
+    }
+]

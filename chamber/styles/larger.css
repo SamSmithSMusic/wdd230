@@ -196,4 +196,24 @@
         font-size: 6vw;
         margin-top: 2vw;
     }
+
+    .dir section {
+        padding: 2vw;
+        transition: transform .3s ease;
+    }
+    .dir section::hover {
+        transform: scale(1.03);
+    }
+
+    .dir h2 {
+        font-size: 350%;
+    }
+
+    .dir h3 {
+        font-size: 200%;
+    }
+
+    .dir a {
+        padding: 1vw;
+    }
 }
