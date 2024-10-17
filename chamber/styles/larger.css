@@ -201,12 +201,12 @@
         padding: 2vw;
         transition: transform .3s ease;
     }
-    .dir section::hover {
+    .dir section:hover {
         transform: scale(1.03);
     }
 
     .dir h2 {
-        font-size: 350%;
+        font-size: 300%;
     }
 
     .dir h3 {
