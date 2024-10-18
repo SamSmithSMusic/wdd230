@@ -4,8 +4,8 @@ const list = document.querySelector('#learning');
 async function getLinks() {
     const response = await fetch(urlLink);
     const data = await response.json();
-    console.log(data);
-    displayActivities(data)
+    // console.log(data);
+    displayActivities(data.weeks)
 }
 
 function displayActivities(data) {
