@@ -92,6 +92,8 @@ main h1 {
     border-radius: 6vw;
     color: var(--night);
     font-size: 5vw;
+    display: flex;
+    flex-direction: column ;
 }
 
 .card h2 {
@@ -238,11 +240,11 @@ a {
     justify-content: left;
     align-items: center;
 }
-.card ul {
-    align-items: start;
-    margin: 0px;
+
+.card section {
+    display: flex;
     padding: 2vw;
-    text-align: left;
+    align-items: center;
 }
 
 a:hover {

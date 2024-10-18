@@ -1,0 +1,53 @@
+[
+{
+    "week": "Week 1",
+    "activities": [
+      { "title": "Outline", "link": "" },
+      { "title": "Media Query", "link": "" },
+      { "title": "JS Pen", "link": "https://codepen.io/Samuel-Smith-the-sasster/pen/QWXeJza" }
+    ]
+  },
+  {
+    "week": "Week 2",
+    "activities": [
+      { "title": "BOM", "link": "week02/bom.html" },
+      { "title": "Design", "link": "week02/design.html" },
+      { "title": "JS Pen", "link": "https://codepen.io/Samuel-Smith-the-sasster/pen/jOgEWgp" }
+    ]
+  },
+  {
+    "week": "Week 3",
+    "activities": [
+      { "title": "Webp", "link": "week03/images/landscape_optimized.webp" },
+      { "title": "LazyLoad", "link": "week03/lazyload.html" },
+      { "title": "Responsive IMG", "link": "week03/responsive-images.html" },
+      { "title": "BOM", "link": "week03/bom.html" }
+    ]
+  },
+  {
+    "week": "Week 4",
+    "activities": [
+      { "title": "Psudo Stuff", "link": "https://codepen.io/Samuel-Smith-the-sasster/pen/NWQRbjW" },
+      { "title": "Combinators", "link": "week04/images/combinators.png" },
+      { "title": "Tables", "link": "week04/tableBuild.html" },
+      { "title": "Forms", "link": "week04/forms.html" }
+    ]
+  },
+  {
+    "week": "Week 5",
+    "activities": [
+      { "title": "Psuedo Stuff", "link": "https://codepen.io/Samuel-Smith-the-sasster/pen/bGXqPrX" },
+      { "title": "Json", "link": "week05/new-ward-members.json" },
+      { "title": "API Fetch", "link": "week05/prophets.html" },
+      { "title": "Weather API", "link": "week05/weather.html" }
+    ]
+  },
+  {
+    "week": "Week 6",
+    "activities": [
+      { "title": "Outline", "link": "" },
+      { "title": "Media Query", "link": "" },
+      { "title": "JS Pen", "link": "" }
+    ]
+  }
+]
