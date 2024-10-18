@@ -91,6 +91,7 @@ main h1 {
     border: solid .8vw var(--night);
     border-radius: 6vw;
     color: var(--night);
+    font-size: 5vw;
 }
 
 .card h2 {
@@ -100,6 +101,17 @@ main h1 {
     font-size: 5.5vw;
     margin: 0px;
     padding: 2vw;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#weather img {
+    background-color: var(--moss-green);
+    margin: 1vw;
+    border-radius: 100%;
 }
 
 footer {

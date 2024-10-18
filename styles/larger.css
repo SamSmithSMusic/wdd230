@@ -1,6 +1,7 @@
 @media screen and (min-width: 600px) {
     .card {
         grid-column: 3/4;
+        font-size: 3vw;
     }
     #learning {
         grid-column: 1/3;
