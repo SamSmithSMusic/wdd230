@@ -1,4 +1,4 @@
-const urlLink = "../data/activities.json";
+const urlLink = "https://samsmithsmusic.github.io/wdd230/data/activities.json";
 const list = document.querySelector('#learning');
 
 async function getLinks() {
