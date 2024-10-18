@@ -6,12 +6,16 @@
     #learning {
         grid-column: 1/3;
     }
-    .card li a {
-        font-size: 3vw;
+    .card section a {
+        font-size: 2.5vw;
     }
-    .card li {
-        font-size: 4vw;
+    .card section {
         margin: 0px;
+        padding: 1vw 1vw;
+    }
+    .card section h3 {
+        font-size: 3.5vw;
+        margin: 0vw .5vw;
     }
 
     nav {
