@@ -150,12 +150,11 @@ section p {
 
 #spotlight {
     width: 100%;
-    display: grid;
-    grid-template-columns: auto 30% auto 30% auto 30% auto;
+    display: flex;
+    flex-direction: column;
 }
 article {
-    grid-column: 1/8;
-    padding: 3vw;
+    padding: 5vw 3vw;
     margin: 5vw;
     text-align: center;
     background-color: #387D7A;
@@ -169,6 +168,15 @@ article h3 {
 article p {
     margin: 0px;
     padding: 2vw;
+}
+article a {
+    font-size: 4vw;
+    background: none;
+    padding: 0vw;
+    color: var(--offWhite);
+}
+article img {
+    padding: 0vw;
 }
 
 footer {
@@ -314,6 +322,22 @@ fieldset .radio#membership label{
 }
 .jp input:required:valid{
     border-right: 3vw solid rgb(0, 151, 33);
+}
+
+#dynWeather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+}
+#dynWeather img{
+    height: 100%;
+    width: auto;
+    padding: 0px;
+}
+#dynWeather p {
+    padding: 0px;
+    font-size: 8vw;
 }
 
 /* <---- Card Benefits ----> */

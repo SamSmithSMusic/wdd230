@@ -40,7 +40,7 @@
     section p{
         font-size: 2.5vw;
     }
-    #Mem1 {
+    /* #Mem1 {
         grid-column: 2/3;
     }
     #Mem2 {
@@ -48,16 +48,38 @@
     }
     #Mem3 {
         grid-column: 6/7;
+    } */
+    #spotlight {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
+
     article {
-        margin: 1vw;
+        width: 25vw;
+        padding: 3vw 2vw;
+        margin: 0vw;
+        max-width: 30vw;
         transition: transform .3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     article:hover {
         transform: scale(1.05);
     }
     article h3 {
-        font-size: 5vw;
+        font-size: 3vw;
+        padding: 0vw;
+    }
+    article p{
+        font-size: 2vw;
+        padding: 0vw;
+    }
+    article a{
+        font-size: 2vw;
     }
 
     #actionCall {
