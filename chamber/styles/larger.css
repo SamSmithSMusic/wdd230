@@ -8,6 +8,11 @@
         display: none;
     }
     
+
+    header > #actionCall {
+        grid-column: 3/4;
+        font-size: 4vw;
+    }
     
     #discover img{
         grid-column: 1;
@@ -118,6 +123,7 @@
         grid-row: 1;
         width: 95%;
         margin: 0px;
+        gap: 0px;
     }
 
     #pictures img {
@@ -228,7 +234,7 @@
     }
 
     .dir h2 {
-        font-size: 300%;
+        font-size: 270%;
     }
 
     .dir h3 {
