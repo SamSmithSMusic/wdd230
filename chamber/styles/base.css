@@ -14,6 +14,10 @@ body {
     margin: 0px;
 }
 
+.hidden {
+    display: none;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
@@ -331,9 +335,12 @@ fieldset .radio#membership label{
     height: 30vw;
 }
 #dynWeather img{
-    height: 100%;
+    height: 80%;
     width: auto;
     padding: 0px;
+    margin-right: 20px;
+    background-color: var(--darkGrey);
+    border-radius: 100%;
 }
 #dynWeather p {
     padding: 0px;
@@ -460,4 +467,28 @@ aside {
     color: var(--offWhite);
     padding: 3vw;
     border-radius: 1vw;
+}
+
+
+
+
+
+
+
+span {
+    grid-column: 1/6;
+    text-align: center;
+    grid-row: 4;
+    font-size: 3.75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(104, 0, 0);
+    padding: 1vw;
+}
+span b{
+    font-size: 5vw;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
 }
